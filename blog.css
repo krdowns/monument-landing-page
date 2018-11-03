@@ -25,7 +25,7 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding-top: 0;
+    padding-top: 0;  
     padding-bottom: 1em;
 }
 
@@ -206,4 +206,80 @@ input[type="email"] {
 input[type="submit"]:hover {
     color: #CDF3F6;
     background-color:rgb(86, 98, 105);
+}
+
+.leaveacomment {
+    border: 2px solid fuchsia;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.commentsection {
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    height: 50vh;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+input[type="input"] {
+    width: 19vw;
+    margin-top: 2vh;
+    border: 1.5px solid black;
+}
+
+.namecomment {
+    width: 45vw;
+}
+
+input[type="text"] {
+    width: 51vw;
+    margin-top: 1vh;
+    border: 1.5px solid black;
+    
+}
+
+
+.comment {
+    text-align: center;
+
+}
+.commentform {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.topcommentline {
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-left: 6vw;
+    padding-right: 6vw;
+
+}
+
+.commentline {
+    text-align: center;
+    justify-content: center;
+    margin-left: 11.75vw;
+    margin-right: 11.75vw;
+}
+
+
+.submitbutton {
+    text-align: center;
+}
+
+.submitbutton > input[type="submit"] {
+    width: 51.5vw;
+    margin-top: 1vh;
+    border: 1.5px solid black;
 }
