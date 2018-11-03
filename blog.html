@@ -7,25 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="blog.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
 <body>
     <div class="topnav">
         <nav>
-            <a href="#">ABOUT</a>
-            <a href="#">GALLERY</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTACT</a>
+            <a class="navbar" href="#">ABOUT</a>
+            <a class="navbar" href="#">GALLERY</a>
+            <a class="navbar" href="#">BLOG</a>
+            <a class="navbar" href="#">CONTACT</a>
         </nav>
     </div>
     <header>
         <h1>MONUMENT</h1>
     </header>
-    <div class="belowheader">
+    <div class="row">
+        <div class="column1">
+        <section class="maincontent">
         <h3>11/23/2016</h3>
         <h2>A VISUAL GUIDE TO THE SOUTHWEST</h2>
-        <section class="maincontent">
             <img src="monument-mockup\pt-1\starter-code\images\blog_1.jpg">
             <article class="main">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque debitis laudantium a voluptatum illo, perspiciatis in deserunt, voluptates quae minus possimus, expedita rerum? Enim sunt facere tempora sequi? Eligendi, at. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime fuga placeat nemo! Dolorum obcaecati, id facilis iure molestiae iusto eligendi nesciunt eum dicta numquam, quo a vel odio nihil repellendus.</p>
@@ -35,31 +37,34 @@
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic veritatis cupiditate odit ratione quo laborum eius doloribus excepturi culpa, quisquam commodi quam non deserunt at accusantium, eos repudiandae, laudantium accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos molestias voluptate voluptatem, in odio libero recusandae quaerat temporibus, minima autem nam quod quibusdam dolor vel aliquam eaque eius sint molestiae?</p>
             </article>
         </section>
+        </div>
+        <div class="column2">
+            <section class="aboutus">
+                <h2>ABOUT US</h2>
+                <article class="aboutarticle">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error facilis consequuntur similique tempore optio iure fuga fugit ex accusamus enim animi dolore saepe, molestias vel, illum distinctio dignissimos unde?
+                    </p>
 
-        <section class="aboutus">
-            <h2>ABOUT US</h2>
-            <article class="aboutarticle">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam error facilis consequuntur similique tempore optio iure fuga fugit ex accusamus enim animi dolore saepe, molestias vel, illum distinctio dignissimos unde?
-                </p>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iste veniam tempora. Quaerat molestias commodi reiciendis corporis aperiam voluptatem, nesciunt soluta id? Qui quia reiciendis tenetur sequi quis similique odio.
+                    </p>
+                </article>
+                <img class="aboutusjpg" src="monument-mockup\pt-1\starter-code\images\about.jpg">
+            </section>
 
-                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iste veniam tempora. Quaerat molestias commodi reiciendis corporis aperiam voluptatem, nesciunt soluta id? Qui quia reiciendis tenetur sequi quis similique odio.
-                </p>
-            </article>
-            <img class="aboutusjpg" src="monument-mockup\pt-1\starter-code\images\about.jpg">
-        </section>
-
-        <section class="recent">
-            <h2>RECENT ISSUES</h2>
-                <ul>
-                    <li><a href="#">Issue Nineteen &mdash; Camping</a></li>
-                    <li><a href="#">Issue Eighteen &mdash; Food</a></li>
-                    <li><a href="#">Issue Seventeen &mdash; Signs</a></li>
-                    <li><a href="#">Issue Sixteen &mdash; Friends</a></li>
-                    <li><a href="#">Issue Fiften &mdash; Carnivals</a></li>
-                    <li><a href="#">Issue Fourteen &mdash; Gatherings</a></li>
-                </ul>
-        </section>
+            <section class="recent">
+                <h2>RECENT ISSUES</h2>
+                    <ul class="issues">
+                        <li><a href="#">Issue Nineteen &mdash; Camping</a></li>
+                        <li><a href="#">Issue Eighteen &mdash; Food</a></li>
+                        <li><a href="#">Issue Seventeen &mdash; Signs</a></li>
+                        <li><a href="#">Issue Sixteen &mdash; Friends</a></li>
+                        <li><a href="#">Issue Fiften &mdash; Carnivals</a></li>
+                        <li><a href="#">Issue Fourteen &mdash; Gatherings</a></li>
+                    </ul>
+            </section>
+        </div>
     </div>
+    
     <footer>
         <section class="social">
         <nav class="footernav">
@@ -68,7 +73,10 @@
             <a href="#"><i class="fab fa-instagram"></i></a>
         </nav>
         </section>
-
+        <div class="emailform">
+            <input type="email" placeholder="EMAIL ADDRESS"/>
+            <input type="submit" value="KEEP IN TOUCH"/>
+        </div>
         <div class="copyright">
             &copy;2016 Sarah Holden
         </div>
